@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "purple-k3d-visuals",
+  "version": "${version}",
+  "name": "Purple K3D Visuals",
+  "description": "Neon purple glassmorphism HUD & PvP visuals for 1.21.4",
+  "authors": ["PurpleK3D"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.purplek3d.PurpleK3DClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
